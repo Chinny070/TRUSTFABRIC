@@ -1,0 +1,23 @@
+# JavaScript dependencies and generated frontend output
+node_modules/
+dist/
+
+# Local Python and GenLayer test/build artifacts
+.pytest_cache/
+__pycache__/
+*.py[cod]
+artifacts/
+
+# Local environment and wallet material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
