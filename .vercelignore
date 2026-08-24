@@ -1,0 +1,13 @@
+# Frontend deployment only: contract source and tests remain in GitHub.
+contracts/
+docs/
+tests/
+artifacts/
+.pytest_cache/
+node_modules/
+dist/
+.env
+.env.*
+*.pem
+*.key
+*.keystore
